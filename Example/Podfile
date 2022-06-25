@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FlexUI_Example' do
+  pod 'FlexUI', :path => '../'
+
+  target 'FlexUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
