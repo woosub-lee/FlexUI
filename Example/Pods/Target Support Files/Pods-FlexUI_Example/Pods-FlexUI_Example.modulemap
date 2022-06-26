@@ -1,0 +1,6 @@
+framework module Pods_FlexUI_Example {
+  umbrella header "Pods-FlexUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

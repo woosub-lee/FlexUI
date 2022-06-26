@@ -1,0 +1,22 @@
+{
+  "name": "FlexUI",
+  "version": "0.1.0",
+  "summary": "A short description of FlexUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/woosub-lee/FlexUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "woosub-lee": "woosub.dev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/woosub-lee/FlexUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FlexUI/Classes/**/*"
+}

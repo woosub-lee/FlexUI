@@ -1,0 +1,16 @@
+PODS:
+  - FlexUI (0.1.0)
+
+DEPENDENCIES:
+  - FlexUI (from `../`)
+
+EXTERNAL SOURCES:
+  FlexUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlexUI: e4e840d55f7ebfc44b60347ae59d95ab527b8f42
+
+PODFILE CHECKSUM: e2c613672af8d472f84430179f2baf92a9a3c3e9
+
+COCOAPODS: 1.11.3
