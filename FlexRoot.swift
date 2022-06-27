@@ -9,12 +9,14 @@ import FlexLayout
 
 @discardableResult
 public func FlexRoot(container: UIView,
+                     direction: Flex.Direction = .column,
                      justifyContent: Flex.JustifyContent = .start,
                      alignItems: Flex.AlignItems = .stretch,
                      @FlexViewBuilder _ content: FlexViewContent) -> Flex {
     let subContents: [FlexView] = content()
     
     let flex = container.flex
+        .direction(direction)
         .justifyContent(justifyContent)
         .alignItems(alignItems)
     
