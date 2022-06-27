@@ -10,16 +10,18 @@ import FlexLayout
 @discardableResult
 public func FlexRoot(container: UIView,
                      justifyContent: Flex.JustifyContent = .start,
-                     alignItems: Flex.AlignItems = .start,
+                     alignItems: Flex.AlignItems = .stretch,
                      @FlexViewBuilder _ content: FlexViewContent) -> Flex {
     let subContents: [FlexView] = content()
     
-    container.flex
+    let flex = container.flex
         .justifyContent(justifyContent)
         .alignItems(alignItems)
     
-    for subContent in subContents {
-        subContent.define(container.flex)
+    flex.define {
+        for subContent in subContents {
+            subContent.define($0)
+        }
     }
-    return container.flex
+    return flex
 }

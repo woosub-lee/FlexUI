@@ -13,7 +13,7 @@ public struct FlexVStack: FlexView {
     
     public init(view: UIView = UIView(),
                 justifyContent: Flex.JustifyContent = .start,
-                alignItems: Flex.AlignItems = .start,
+                alignItems: Flex.AlignItems = .stretch,
                 @FlexViewBuilder _ content: FlexViewContent) {
         self.view = view
         self.subContents = content()
