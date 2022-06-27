@@ -7,26 +7,26 @@
 //
 
 import FlexUI
+import FlexLayout
 import PinLayout
 
 class ViewController: UIViewController {
 
     var rootFlexContainer: UIView = UIView()
-    var redView: UILabel = UILabel()
+    var redView: UIView = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.redView.backgroundColor = .red
-        self.redView.text = "1"
         
         self.view.addSubview(rootFlexContainer)
         FlexRoot(container: rootFlexContainer) {
-            FlexItem(view: redView)
+            FlexItem(view: redView).height(300).aspectRatio(1)
         }
     }
 
     override func viewDidLayoutSubviews() {
-        rootFlexContainer.pin.all()
+        rootFlexContainer.pin.all(self.view.safeAreaInsets)
         rootFlexContainer.flex.layout()
     }
 
