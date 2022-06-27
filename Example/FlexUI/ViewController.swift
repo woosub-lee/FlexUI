@@ -6,18 +6,28 @@
 //  Copyright (c) 2022 woosub-lee. All rights reserved.
 //
 
-import UIKit
+import FlexUI
+import PinLayout
 
 class ViewController: UIViewController {
 
+    var rootFlexContainer: UIView = UIView()
+    var redView: UILabel = UILabel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.redView.backgroundColor = .red
+        self.redView.text = "1"
+        
+        self.view.addSubview(rootFlexContainer)
+        FlexRoot(container: rootFlexContainer) {
+            FlexItem(view: redView)
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidLayoutSubviews() {
+        rootFlexContainer.pin.all()
+        rootFlexContainer.flex.layout()
     }
 
 }

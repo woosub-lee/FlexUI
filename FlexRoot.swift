@@ -7,6 +7,7 @@
 
 import FlexLayout
 
+@discardableResult
 public func FlexRoot(container: UIView,
                      justifyContent: Flex.JustifyContent = .start,
                      alignItems: Flex.AlignItems = .start,

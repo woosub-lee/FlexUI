@@ -56,6 +56,7 @@
 		A5C8D698286930DA0038D2C7 /* FlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D697286930DA0038D2C7 /* FlexView.swift */; };
 		A5C8D69D286936620038D2C7 /* FlexViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D69C286936620038D2C7 /* FlexViewBuilder.swift */; };
 		A5C8D69F286937540038D2C7 /* FlexRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D69E286937540038D2C7 /* FlexRoot.swift */; };
+		A5C8D6A12869393B0038D2C7 /* FlexItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6A02869393B0038D2C7 /* FlexItem.swift */; };
 		A7BC708210D175AA55D98D63586EC5A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */; };
 		ADA24AB6F3E320136B4114A751DB5045 /* PinLayout+WrapContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3466FF34C87FE22067C2016E4865DE /* PinLayout+WrapContent.swift */; };
 		B3D33DD36CEC980B5E5BF7C2D0C18100 /* Types+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A3A43EA2D1EE28E7DC44E34266565 /* Types+Description.swift */; };
@@ -207,6 +208,7 @@
 		A5C8D697286930DA0038D2C7 /* FlexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexView.swift; sourceTree = "<group>"; };
 		A5C8D69C286936620038D2C7 /* FlexViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexViewBuilder.swift; sourceTree = "<group>"; };
 		A5C8D69E286937540038D2C7 /* FlexRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexRoot.swift; sourceTree = "<group>"; };
+		A5C8D6A02869393B0038D2C7 /* FlexItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexItem.swift; sourceTree = "<group>"; };
 		A787340F77B0F6C032825B646F7DF572 /* Layoutable+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Layoutable+PinLayout.swift"; path = "Sources/Layoutable+PinLayout.swift"; sourceTree = "<group>"; };
 		A877ABA31F112FF31A2A8C233BABB4BD /* FlexUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexUI-prefix.pch"; sourceTree = "<group>"; };
 		A8CA76FA6695D5622378888259F58E49 /* YGEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGEnums.h; path = Sources/yoga/include/yoga/YGEnums.h; sourceTree = "<group>"; };
@@ -507,6 +509,7 @@
 				A5C8D697286930DA0038D2C7 /* FlexView.swift */,
 				A5C8D69C286936620038D2C7 /* FlexViewBuilder.swift */,
 				A5C8D69E286937540038D2C7 /* FlexRoot.swift */,
+				A5C8D6A02869393B0038D2C7 /* FlexItem.swift */,
 			);
 			name = FlexUI;
 			path = ../..;
@@ -880,6 +883,7 @@
 				DCAE1D5E8645C4AE7E20DB45708E0E93 /* FlexUI-dummy.m in Sources */,
 				A5C8D69D286936620038D2C7 /* FlexViewBuilder.swift in Sources */,
 				A5C8D698286930DA0038D2C7 /* FlexView.swift in Sources */,
+				A5C8D6A12869393B0038D2C7 /* FlexItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
