@@ -61,6 +61,7 @@
 		A5C8D6B728698DBA0038D2C7 /* FlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6AF28698DBA0038D2C7 /* FlexView.swift */; };
 		A5C8D6B828698DBA0038D2C7 /* FlexView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6B028698DBA0038D2C7 /* FlexView+Extension.swift */; };
 		A5C8D6B928698DBA0038D2C7 /* FlexVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6B128698DBA0038D2C7 /* FlexVStack.swift */; };
+		A5C8D6BB28698EA20038D2C7 /* FlexDefinable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6BA28698EA20038D2C7 /* FlexDefinable.swift */; };
 		A7BC708210D175AA55D98D63586EC5A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */; };
 		ADA24AB6F3E320136B4114A751DB5045 /* PinLayout+WrapContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3466FF34C87FE22067C2016E4865DE /* PinLayout+WrapContent.swift */; };
 		B3D33DD36CEC980B5E5BF7C2D0C18100 /* Types+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A3A43EA2D1EE28E7DC44E34266565 /* Types+Description.swift */; };
@@ -217,6 +218,7 @@
 		A5C8D6AF28698DBA0038D2C7 /* FlexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexView.swift; path = FlexUI/Sources/FlexView.swift; sourceTree = "<group>"; };
 		A5C8D6B028698DBA0038D2C7 /* FlexView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FlexView+Extension.swift"; path = "FlexUI/Sources/FlexView+Extension.swift"; sourceTree = "<group>"; };
 		A5C8D6B128698DBA0038D2C7 /* FlexVStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexVStack.swift; path = FlexUI/Sources/FlexVStack.swift; sourceTree = "<group>"; };
+		A5C8D6BA28698EA20038D2C7 /* FlexDefinable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlexDefinable.swift; path = FlexUI/Sources/FlexDefinable.swift; sourceTree = "<group>"; };
 		A787340F77B0F6C032825B646F7DF572 /* Layoutable+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Layoutable+PinLayout.swift"; path = "Sources/Layoutable+PinLayout.swift"; sourceTree = "<group>"; };
 		A877ABA31F112FF31A2A8C233BABB4BD /* FlexUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexUI-prefix.pch"; sourceTree = "<group>"; };
 		A8CA76FA6695D5622378888259F58E49 /* YGEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGEnums.h; path = Sources/yoga/include/yoga/YGEnums.h; sourceTree = "<group>"; };
@@ -520,6 +522,7 @@
 				A5C8D6B028698DBA0038D2C7 /* FlexView+Extension.swift */,
 				A5C8D6AE28698DB90038D2C7 /* FlexViewBuilder.swift */,
 				A5C8D6B128698DBA0038D2C7 /* FlexVStack.swift */,
+				A5C8D6BA28698EA20038D2C7 /* FlexDefinable.swift */,
 				DC28A8E0EDAF09698896A3374651266E /* Pod */,
 				682A674F828F3BA2D77F838FE758ED99 /* Support Files */,
 			);
@@ -900,6 +903,7 @@
 				DCAE1D5E8645C4AE7E20DB45708E0E93 /* FlexUI-dummy.m in Sources */,
 				A5C8D6B428698DBA0038D2C7 /* FlexHStack.swift in Sources */,
 				A5C8D6B328698DBA0038D2C7 /* FlexItem.swift in Sources */,
+				A5C8D6BB28698EA20038D2C7 /* FlexDefinable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1018,7 +1022,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1338,7 +1342,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

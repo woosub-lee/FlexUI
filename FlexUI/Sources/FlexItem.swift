@@ -7,14 +7,14 @@
 
 import FlexLayout
 
-public struct FlexItem: FlexView {
+public struct FlexItem: FlexView, FlexDefinable {
     public var view: UIView
     
     public init(view: UIView) {
         self.view = view
     }
     
-    public func define(_ superFlex: Flex) {
+    func define(superFlex: Flex) {
         superFlex.addItem(view)
     }
 }

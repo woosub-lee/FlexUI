@@ -15,15 +15,13 @@ public func FlexRoot(container: UIView,
                      @FlexViewBuilder _ content: FlexViewContent) -> Flex {
     let subContents: [FlexView] = content()
     
-    let flex = container.flex
+    return container.flex
         .direction(direction)
         .justifyContent(justifyContent)
         .alignItems(alignItems)
-    
-    flex.define {
-        for subContent in subContents {
-            subContent.define($0)
+        .define {
+            for subContent in subContents.compactMap({ $0 as? FlexDefinable }) {
+                subContent.define(superFlex: $0)
+            }
         }
-    }
-    return flex
 }

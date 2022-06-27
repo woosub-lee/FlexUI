@@ -7,7 +7,7 @@
 
 import FlexLayout
 
-public struct FlexSpacer: FlexView {
+public struct FlexSpacer: FlexView, FlexDefinable {
     public var view: UIView
     
     public init(width: CGFloat? = nil, height: CGFloat? = nil) {
@@ -16,7 +16,7 @@ public struct FlexSpacer: FlexView {
         self.view.flex.width(width).height(height)
     }
     
-    public func define(_ superFlex: Flex) {
+    func define(superFlex: Flex) {
         superFlex.addItem(view)
     }
 }

@@ -7,7 +7,7 @@
 
 import FlexLayout
 
-public struct FlexHStack: FlexView {
+public struct FlexHStack: FlexView, FlexDefinable {
     public var view: UIView
     private let subContents: [FlexView]
     
@@ -20,12 +20,12 @@ public struct FlexHStack: FlexView {
         self.view.flex.justifyContent(justifyContent).alignItems(alignItems)
     }
     
-    public func define(_ superFlex: Flex) {
+    func define(superFlex: Flex) {
         let stack = superFlex.addItem(view)
             .direction(.row)
         
-        for subContent in subContents {
-            subContent.define(stack)
+        for subContent in subContents.compactMap({ $0 as? FlexDefinable }) {
+            subContent.define(superFlex: stack)
         }
     }
 }
