@@ -30,15 +30,13 @@ class ViewController: UIViewController {
         
         
         self.view.addSubview(rootFlexContainer)
-        FlexRoot(container: rootFlexContainer) {
-            FlexVStack {
-                FlexHStack {
-                    FlexItem(view: titleLabel)
-                    FlexSpacer().grow(1)
-                    FlexItem(view: settingLabel)
-                }.padding(0, 8)
-                FlexItem(view: redView).grow(1)
-            }.grow(1)
+        FlexRoot(container: rootFlexContainer, direction: .column) {
+            FlexHStack {
+                FlexItem(view: titleLabel)
+                FlexSpacer().grow(1)
+                FlexItem(view: settingLabel)
+            }.padding(0, 8)
+            FlexItem(view: redView).grow(1)
         }.backgroundColor(.lightGray)
         
         self.rootFlexContainer.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(update)))

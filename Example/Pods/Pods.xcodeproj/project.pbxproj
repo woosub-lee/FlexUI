@@ -53,14 +53,14 @@
 		9613984548ED8796B3DDE9292B7FFDDD /* Percent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DF9B7AAC52479826EA4E0D59379CD4 /* Percent.swift */; };
 		99E52AD8269B26C8BD57475D78341971 /* YGEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CA76FA6695D5622378888259F58E49 /* YGEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A00BB7D2D033BA2E98C4DBE6F4F8C77E /* YGLayout+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D49243C4994A7887CC22459087C2302 /* YGLayout+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5C8D698286930DA0038D2C7 /* FlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D697286930DA0038D2C7 /* FlexView.swift */; };
-		A5C8D69D286936620038D2C7 /* FlexViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D69C286936620038D2C7 /* FlexViewBuilder.swift */; };
-		A5C8D69F286937540038D2C7 /* FlexRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D69E286937540038D2C7 /* FlexRoot.swift */; };
-		A5C8D6A12869393B0038D2C7 /* FlexItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6A02869393B0038D2C7 /* FlexItem.swift */; };
-		A5C8D6A328693C590038D2C7 /* FlexView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6A228693C590038D2C7 /* FlexView+Extension.swift */; };
-		A5C8D6A5286947850038D2C7 /* FlexVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6A4286947850038D2C7 /* FlexVStack.swift */; };
-		A5C8D6A728694CA30038D2C7 /* FlexHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6A628694CA30038D2C7 /* FlexHStack.swift */; };
-		A5C8D6A9286979490038D2C7 /* FlexSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6A8286979490038D2C7 /* FlexSpacer.swift */; };
+		A5C8D6B228698DBA0038D2C7 /* FlexRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6AA28698DB90038D2C7 /* FlexRoot.swift */; };
+		A5C8D6B328698DBA0038D2C7 /* FlexItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6AB28698DB90038D2C7 /* FlexItem.swift */; };
+		A5C8D6B428698DBA0038D2C7 /* FlexHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6AC28698DB90038D2C7 /* FlexHStack.swift */; };
+		A5C8D6B528698DBA0038D2C7 /* FlexSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6AD28698DB90038D2C7 /* FlexSpacer.swift */; };
+		A5C8D6B628698DBA0038D2C7 /* FlexViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6AE28698DB90038D2C7 /* FlexViewBuilder.swift */; };
+		A5C8D6B728698DBA0038D2C7 /* FlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6AF28698DBA0038D2C7 /* FlexView.swift */; };
+		A5C8D6B828698DBA0038D2C7 /* FlexView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6B028698DBA0038D2C7 /* FlexView+Extension.swift */; };
+		A5C8D6B928698DBA0038D2C7 /* FlexVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6B128698DBA0038D2C7 /* FlexVStack.swift */; };
 		A7BC708210D175AA55D98D63586EC5A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543B56292D357C3C5AAD6AF749B048FA /* Foundation.framework */; };
 		ADA24AB6F3E320136B4114A751DB5045 /* PinLayout+WrapContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3466FF34C87FE22067C2016E4865DE /* PinLayout+WrapContent.swift */; };
 		B3D33DD36CEC980B5E5BF7C2D0C18100 /* Types+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A3A43EA2D1EE28E7DC44E34266565 /* Types+Description.swift */; };
@@ -209,14 +209,14 @@
 		9DF55016888BC05C860FAC9C88972A91 /* PinLayout+Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Coordinates.swift"; path = "Sources/Impl/PinLayout+Coordinates.swift"; sourceTree = "<group>"; };
 		9F6B543EC766F9BB9A0704FA4C8BE6D2 /* FlexUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexUI.release.xcconfig; sourceTree = "<group>"; };
 		A2423DDF9764E7BF0E47801F9E88C87F /* FlexUI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexUI.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5C8D697286930DA0038D2C7 /* FlexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexView.swift; sourceTree = "<group>"; };
-		A5C8D69C286936620038D2C7 /* FlexViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexViewBuilder.swift; sourceTree = "<group>"; };
-		A5C8D69E286937540038D2C7 /* FlexRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexRoot.swift; sourceTree = "<group>"; };
-		A5C8D6A02869393B0038D2C7 /* FlexItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexItem.swift; sourceTree = "<group>"; };
-		A5C8D6A228693C590038D2C7 /* FlexView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlexView+Extension.swift"; sourceTree = "<group>"; };
-		A5C8D6A4286947850038D2C7 /* FlexVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexVStack.swift; sourceTree = "<group>"; };
-		A5C8D6A628694CA30038D2C7 /* FlexHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexHStack.swift; sourceTree = "<group>"; };
-		A5C8D6A8286979490038D2C7 /* FlexSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexSpacer.swift; sourceTree = "<group>"; };
+		A5C8D6AA28698DB90038D2C7 /* FlexRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexRoot.swift; path = FlexUI/Sources/FlexRoot.swift; sourceTree = "<group>"; };
+		A5C8D6AB28698DB90038D2C7 /* FlexItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexItem.swift; path = FlexUI/Sources/FlexItem.swift; sourceTree = "<group>"; };
+		A5C8D6AC28698DB90038D2C7 /* FlexHStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexHStack.swift; path = FlexUI/Sources/FlexHStack.swift; sourceTree = "<group>"; };
+		A5C8D6AD28698DB90038D2C7 /* FlexSpacer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexSpacer.swift; path = FlexUI/Sources/FlexSpacer.swift; sourceTree = "<group>"; };
+		A5C8D6AE28698DB90038D2C7 /* FlexViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexViewBuilder.swift; path = FlexUI/Sources/FlexViewBuilder.swift; sourceTree = "<group>"; };
+		A5C8D6AF28698DBA0038D2C7 /* FlexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexView.swift; path = FlexUI/Sources/FlexView.swift; sourceTree = "<group>"; };
+		A5C8D6B028698DBA0038D2C7 /* FlexView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FlexView+Extension.swift"; path = "FlexUI/Sources/FlexView+Extension.swift"; sourceTree = "<group>"; };
+		A5C8D6B128698DBA0038D2C7 /* FlexVStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlexVStack.swift; path = FlexUI/Sources/FlexVStack.swift; sourceTree = "<group>"; };
 		A787340F77B0F6C032825B646F7DF572 /* Layoutable+PinLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Layoutable+PinLayout.swift"; path = "Sources/Layoutable+PinLayout.swift"; sourceTree = "<group>"; };
 		A877ABA31F112FF31A2A8C233BABB4BD /* FlexUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexUI-prefix.pch"; sourceTree = "<group>"; };
 		A8CA76FA6695D5622378888259F58E49 /* YGEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGEnums.h; path = Sources/yoga/include/yoga/YGEnums.h; sourceTree = "<group>"; };
@@ -512,16 +512,16 @@
 		E1FE2B4CE23D720CD770C6A409A5FB2C /* FlexUI */ = {
 			isa = PBXGroup;
 			children = (
+				A5C8D6AC28698DB90038D2C7 /* FlexHStack.swift */,
+				A5C8D6AB28698DB90038D2C7 /* FlexItem.swift */,
+				A5C8D6AA28698DB90038D2C7 /* FlexRoot.swift */,
+				A5C8D6AD28698DB90038D2C7 /* FlexSpacer.swift */,
+				A5C8D6AF28698DBA0038D2C7 /* FlexView.swift */,
+				A5C8D6B028698DBA0038D2C7 /* FlexView+Extension.swift */,
+				A5C8D6AE28698DB90038D2C7 /* FlexViewBuilder.swift */,
+				A5C8D6B128698DBA0038D2C7 /* FlexVStack.swift */,
 				DC28A8E0EDAF09698896A3374651266E /* Pod */,
 				682A674F828F3BA2D77F838FE758ED99 /* Support Files */,
-				A5C8D697286930DA0038D2C7 /* FlexView.swift */,
-				A5C8D6A8286979490038D2C7 /* FlexSpacer.swift */,
-				A5C8D6A228693C590038D2C7 /* FlexView+Extension.swift */,
-				A5C8D6A628694CA30038D2C7 /* FlexHStack.swift */,
-				A5C8D69C286936620038D2C7 /* FlexViewBuilder.swift */,
-				A5C8D6A4286947850038D2C7 /* FlexVStack.swift */,
-				A5C8D69E286937540038D2C7 /* FlexRoot.swift */,
-				A5C8D6A02869393B0038D2C7 /* FlexItem.swift */,
 			);
 			name = FlexUI;
 			path = ../..;
@@ -891,15 +891,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C8D6A728694CA30038D2C7 /* FlexHStack.swift in Sources */,
-				A5C8D69F286937540038D2C7 /* FlexRoot.swift in Sources */,
+				A5C8D6B928698DBA0038D2C7 /* FlexVStack.swift in Sources */,
+				A5C8D6B528698DBA0038D2C7 /* FlexSpacer.swift in Sources */,
+				A5C8D6B728698DBA0038D2C7 /* FlexView.swift in Sources */,
+				A5C8D6B628698DBA0038D2C7 /* FlexViewBuilder.swift in Sources */,
+				A5C8D6B828698DBA0038D2C7 /* FlexView+Extension.swift in Sources */,
+				A5C8D6B228698DBA0038D2C7 /* FlexRoot.swift in Sources */,
 				DCAE1D5E8645C4AE7E20DB45708E0E93 /* FlexUI-dummy.m in Sources */,
-				A5C8D69D286936620038D2C7 /* FlexViewBuilder.swift in Sources */,
-				A5C8D6A328693C590038D2C7 /* FlexView+Extension.swift in Sources */,
-				A5C8D6A5286947850038D2C7 /* FlexVStack.swift in Sources */,
-				A5C8D698286930DA0038D2C7 /* FlexView.swift in Sources */,
-				A5C8D6A9286979490038D2C7 /* FlexSpacer.swift in Sources */,
-				A5C8D6A12869393B0038D2C7 /* FlexItem.swift in Sources */,
+				A5C8D6B428698DBA0038D2C7 /* FlexHStack.swift in Sources */,
+				A5C8D6B328698DBA0038D2C7 /* FlexItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
