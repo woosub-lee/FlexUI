@@ -14,15 +14,22 @@ class ViewController: UIViewController {
 
     var rootFlexContainer: UIView = UIView()
     var redView: UIView = UIView()
+    var blueView: UIView = UIView()
+    var emptyView: UIView = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.redView.backgroundColor = .red
+        self.blueView.backgroundColor = .blue
         
         self.view.addSubview(rootFlexContainer)
         FlexRoot(container: rootFlexContainer) {
-            FlexItem(view: redView).height(300).aspectRatio(1)
-        }
+            FlexVStack {
+                FlexItem(view: emptyView).height(0).width(300)
+                FlexItem(view: redView).width(100).height(100)
+                FlexItem(view: blueView).width(100).grow(1)
+            }.grow(1).padding(20).backgroundColor(.darkGray)
+        }.padding(20).backgroundColor(.lightGray)
     }
 
     override func viewDidLayoutSubviews() {

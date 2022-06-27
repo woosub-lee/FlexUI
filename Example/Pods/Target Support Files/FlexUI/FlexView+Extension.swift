@@ -511,4 +511,14 @@ extension FlexView {
         self.view.flex.padding(top, left, bottom, right)
         return self
     }
+    
+    public func backgroundColor(_ color: UIColor) -> Self {
+        self.view.flex.backgroundColor(color)
+        return self
+    }
+    
+    public func display(_ value: Flex.Display) -> Self {
+        self.view.flex.display(value)
+        return self
+    }
 }
