@@ -12,11 +12,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'FlexUI/Classes/**/*'
+  s.source_files = 'FlexUI/Sources/**/*'
   
-  s.resource_bundles = {
-    'FlexUI' => ['FlexUI/Assets/*.png']
-  }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'FlexLayout', '~> 1.3'
