@@ -2,8 +2,8 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexUI'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FlexUI.'
-  s.description      = ''
+  s.summary          = 'FlexLayout Sugar Framework like SwiftUI syntax'
+  s.description      = 'FlexLayout wraper for using SwiftUI style syntax'
 
   s.homepage         = 'https://github.com/woosub-lee/FlexUI'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
