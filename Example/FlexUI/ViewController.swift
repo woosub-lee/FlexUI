@@ -34,8 +34,9 @@ class ViewController: UIViewController {
             FlexVStack {
                 FlexHStack {
                     FlexItem(view: titleLabel)
+                    FlexSpacer().grow(1)
                     FlexItem(view: settingLabel)
-                }
+                }.padding(0, 8)
                 FlexItem(view: redView).grow(1)
             }.grow(1)
         }.backgroundColor(.lightGray)
