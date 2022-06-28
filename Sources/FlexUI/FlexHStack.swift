@@ -6,6 +6,7 @@
 //
 
 import FlexLayout
+import UIKit
 
 public struct FlexHStack: FlexView, FlexDefinable {
     public var view: UIView
