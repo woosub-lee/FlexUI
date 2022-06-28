@@ -1,8 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FlexUI"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FlexLayout" "${PODS_CONFIGURATION_BUILD_DIR}/FlexUI" "${PODS_CONFIGURATION_BUILD_DIR}/PinLayout"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FlexUI/FlexUI.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "FlexUI"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FlexLayout/FlexLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FlexUI/FlexUI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PinLayout/PinLayout.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"c++" -framework "CoreGraphics" -framework "FlexLayout" -framework "FlexUI" -framework "Foundation" -framework "PinLayout" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
