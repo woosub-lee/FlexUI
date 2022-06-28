@@ -6,6 +6,7 @@
 //
 
 import FlexLayout
+import UIKit
 
 @discardableResult
 public func FlexRoot(container: UIView,

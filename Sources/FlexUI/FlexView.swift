@@ -6,6 +6,7 @@
 //
 
 import FlexLayout
+import UIKit
 
 public protocol FlexView {
     var view: UIView { get set }
