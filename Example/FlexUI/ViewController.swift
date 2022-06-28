@@ -11,47 +11,56 @@ import FlexLayout
 import PinLayout
 
 class ViewController: UIViewController {
-
     var rootFlexContainer: UIView = UIView()
+    
     var titleLabel: UILabel = UILabel()
-    var settingLabel: UILabel = UILabel()
-    var redView: UIView = UIView()
-    var blueView: UIView = UIView()
-    var emptyView: UIView = UIView()
+    var generateButton: UIButton = UIButton()
+    
+    var tableView: UITableView = UITableView()
+    var tableViewAdapter: LottoTableViewAdapter = LottoTableViewAdapter()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.redView.backgroundColor = .red
-        self.blueView.backgroundColor = .blue
-        self.titleLabel.text = "Title"
-        self.titleLabel.font = .boldSystemFont(ofSize: 32)
-        self.settingLabel.text = "Settings"
-        self.settingLabel.font = .systemFont(ofSize: 24)
-        
-        
         self.view.addSubview(rootFlexContainer)
+        self.setViewProperties()
+        
         FlexRoot(container: rootFlexContainer, direction: .column) {
             FlexHStack {
                 FlexItem(view: titleLabel)
                 FlexSpacer().grow(1)
-                FlexItem(view: settingLabel)
-            }.padding(0, 8)
-            FlexItem(view: redView).grow(1)
-        }.backgroundColor(.lightGray)
-        
-        self.rootFlexContainer.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(update)))
+                FlexItem(view: generateButton)
+            }
+            .padding(8, 16)
+            
+            FlexSpacer(height: 24)
+            FlexItem(view: tableView).grow(1)
+        }
     }
-
+    
     override func viewDidLayoutSubviews() {
         rootFlexContainer.pin.all(self.view.safeAreaInsets)
         rootFlexContainer.flex.layout()
     }
     
-    @objc func update() {
-        rootFlexContainer.flex.markDirty()
-        rootFlexContainer.setNeedsLayout()
-        rootFlexContainer.layoutIfNeeded()
+    private func setViewProperties() {
+        self.view.backgroundColor = .white
+        
+        self.titleLabel.text = "FlexUI Example"
+        self.titleLabel.font = .boldSystemFont(ofSize: 24)
+        
+        self.generateButton.setTitle("Generate", for: .normal)
+        self.generateButton.titleLabel?.font = .systemFont(ofSize: 18)
+        self.generateButton.setTitleColor(.systemBlue, for: .normal)
+        self.generateButton.addTarget(self, action: #selector(generateLotto), for: .touchDown)
+        
+        self.tableView.register(LottoTableViewCell.self, forCellReuseIdentifier: LottoTableViewCell.reuseIdentifier)
+        self.tableView.dataSource = tableViewAdapter
+        self.tableView.delegate = tableViewAdapter
     }
-
+    
+    @objc func generateLotto() {
+        tableViewAdapter.generateLotto()
+        tableView.reloadData()
+    }
 }
 
