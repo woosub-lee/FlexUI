@@ -9,6 +9,7 @@
 
 ```swift
 self.view.addSubView(rootFlexContainer)
+
 FlexRoot(container: rootFlexContainer) {
     FlexHStack {
         FlexItem(view: titleLabel)

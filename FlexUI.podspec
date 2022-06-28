@@ -12,9 +12,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.5'
-  s.source_files = 'FlexUI/Sources/**/*'
-  
-
+  s.source_files = 'Sources/FlexUI/**/*'
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'FlexLayout', '~> 1.3'
   s.dependency 'PinLayout', '~> 1.10.0'
