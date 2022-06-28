@@ -4,6 +4,9 @@
 [![Version](https://img.shields.io/cocoapods/v/FlexUI.svg?style=flat)](https://cocoapods.org/pods/FlexUI)
 [![License](https://img.shields.io/cocoapods/l/FlexUI.svg?style=flat)](https://cocoapods.org/pods/FlexUI)
 [![Platform](https://img.shields.io/cocoapods/p/FlexUI.svg?style=flat)](https://cocoapods.org/pods/FlexUI)
+[![SwiftPM](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat)](https://swift.org/package-manager/)  
+
+Use FlexLayout like SwiftUI Syntax!
 
 ## Example
 
