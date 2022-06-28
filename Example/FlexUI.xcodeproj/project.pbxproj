@@ -14,6 +14,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6BED4DC41E01C16E579F875E /* Pods_FlexUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF4AF089F44283EE054F234 /* Pods_FlexUI_Example.framework */; };
 		74642BD8AE415C09FD6E0222 /* Pods_FlexUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465BD59CAF2D01B1C97109B0 /* Pods_FlexUI_Tests.framework */; };
+		A5C8D6BD286A8C440038D2C7 /* LottoRandomPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C8D6BC286A8C440038D2C7 /* LottoRandomPool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6BA1CAD0316B26F5C3AB5FAB /* Pods-FlexUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FlexUI_Tests/Pods-FlexUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9EF4AF089F44283EE054F234 /* Pods_FlexUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C8D6BC286A8C440038D2C7 /* LottoRandomPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoRandomPool.swift; sourceTree = "<group>"; };
 		A64F8DA44C257A5366940ECE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CD8713B871C0C17C98F61BE1 /* Pods-FlexUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-FlexUI_Tests/Pods-FlexUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC6BCD177F13AA95A276269F /* Pods-FlexUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-FlexUI_Example/Pods-FlexUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A5C8D6BC286A8C440038D2C7 /* LottoRandomPool.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -333,6 +336,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				A5C8D6BD286A8C440038D2C7 /* LottoRandomPool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
