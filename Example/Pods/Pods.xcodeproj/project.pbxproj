@@ -170,7 +170,7 @@
 		44D536054F6B987DE1BCDFBA38A62591 /* Pods-FlexUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlexUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		46EEB1BE3C7D702EE0BABD9BC8A51E4E /* PinLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinLayout.release.xcconfig; sourceTree = "<group>"; };
 		474716271610AC757F56C8819945B709 /* PinLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PinLayout-Info.plist"; sourceTree = "<group>"; };
-		49A1B30EADC8BCAF734D81E271752CDD /* PinLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PinLayout; path = PinLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A1B30EADC8BCAF734D81E271752CDD /* PinLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A01D06EDC5D1E5EFF8BD66F59DE8349 /* Pods-FlexUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlexUI_Tests.modulemap"; sourceTree = "<group>"; };
 		4D271C70C589C8DE4DDDB5FCC8D908DA /* Pods-FlexUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlexUI_Example-Info.plist"; sourceTree = "<group>"; };
 		4FB383DC42D0E1D2553C4E3936616593 /* YGNode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = YGNode.cpp; path = Sources/yoga/YGNode.cpp; sourceTree = "<group>"; };
@@ -188,7 +188,7 @@
 		6CA4470DE6ACD662FD98289DDAAD9FC5 /* Pods-FlexUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		708B584C18E2CCB7C7A79694D9DEDD14 /* Yoga-internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Yoga-internal.h"; path = "Sources/yoga/Yoga-internal.h"; sourceTree = "<group>"; };
 		71C707F1EFA03CA77876DFB07A8AC750 /* FlexUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexUI-umbrella.h"; sourceTree = "<group>"; };
-		731E8E7A9F465A523A90DC5D5706E24A /* Pods-FlexUI_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlexUI_Example"; path = Pods_FlexUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731E8E7A9F465A523A90DC5D5706E24A /* Pods_FlexUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CB9340FB50BA6D5B04E6D1D1593077 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		7D901662DB4E25D488F8DD6CB644B18C /* SizeCalculable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeCalculable.swift; path = Sources/SizeCalculable.swift; sourceTree = "<group>"; };
 		7DF6369292A7A4A4450438482CD8FD34 /* YGEnums.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = YGEnums.cpp; path = Sources/yoga/YGEnums.cpp; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		95227AF13DEF6E2D2D082B074C5561F3 /* Utils.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Utils.cpp; path = Sources/yoga/Utils.cpp; sourceTree = "<group>"; };
 		95F5F418AB066977077FC6DF905D2730 /* PinLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinLayout.debug.xcconfig; sourceTree = "<group>"; };
 		98440DB9552D896424627D225B7EB804 /* Pods-FlexUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlexUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D22C432CB854EC76C6D1AB56B3A045E /* Pods-FlexUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlexUI_Tests"; path = Pods_FlexUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D22C432CB854EC76C6D1AB56B3A045E /* Pods_FlexUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE1454C261888853E9C8D85D675A94F /* PinLayout+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Size.swift"; path = "Sources/PinLayout+Size.swift"; sourceTree = "<group>"; };
 		9DF55016888BC05C860FAC9C88972A91 /* PinLayout+Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PinLayout+Coordinates.swift"; path = "Sources/Impl/PinLayout+Coordinates.swift"; sourceTree = "<group>"; };
@@ -232,7 +232,7 @@
 		C24FEFDAC54254927001E70F52FB0E8F /* YGStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGStyle.h; path = Sources/yoga/YGStyle.h; sourceTree = "<group>"; };
 		C36F62832BAC84048C0E4C0A67410DB1 /* YGNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNode.h; path = Sources/yoga/YGNode.h; sourceTree = "<group>"; };
 		C47A3A43EA2D1EE28E7DC44E34266565 /* Types+Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Types+Description.swift"; path = "Sources/Types+Description.swift"; sourceTree = "<group>"; };
-		C72B5FCB4FAF78A4CFE9E3AAD40B09B8 /* FlexLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexLayout; path = FlexLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72B5FCB4FAF78A4CFE9E3AAD40B09B8 /* FlexLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3F09B9375BB02A44EE6E5B29C60F5A /* FlexUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexUI.modulemap; sourceTree = "<group>"; };
 		CBC416C3C573168D000B623E0D65895B /* FlexLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexLayout-umbrella.h"; sourceTree = "<group>"; };
 		D1DABBAAAFE421D4E8C0601B1C38988D /* YGLayoutExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YGLayoutExtensions.swift; path = Sources/Swift/YGLayoutExtensions.swift; sourceTree = "<group>"; };
@@ -550,12 +550,12 @@
 		F458AD1DA02AF5F898C99D0B43B74B5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C72B5FCB4FAF78A4CFE9E3AAD40B09B8 /* FlexLayout */,
+				C72B5FCB4FAF78A4CFE9E3AAD40B09B8 /* FlexLayout.framework */,
 				F973ED23F6E312AF99D88F3FDE1B168B /* FlexUI.framework */,
 				A2423DDF9764E7BF0E47801F9E88C87F /* FlexUI.bundle */,
-				49A1B30EADC8BCAF734D81E271752CDD /* PinLayout */,
-				731E8E7A9F465A523A90DC5D5706E24A /* Pods-FlexUI_Example */,
-				9D22C432CB854EC76C6D1AB56B3A045E /* Pods-FlexUI_Tests */,
+				49A1B30EADC8BCAF734D81E271752CDD /* PinLayout.framework */,
+				731E8E7A9F465A523A90DC5D5706E24A /* Pods_FlexUI_Example.framework */,
+				9D22C432CB854EC76C6D1AB56B3A045E /* Pods_FlexUI_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -654,7 +654,7 @@
 			);
 			name = "Pods-FlexUI_Example";
 			productName = Pods_FlexUI_Example;
-			productReference = 731E8E7A9F465A523A90DC5D5706E24A /* Pods-FlexUI_Example */;
+			productReference = 731E8E7A9F465A523A90DC5D5706E24A /* Pods_FlexUI_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4F78D278FB739517AE6B08F96AB75280 /* PinLayout */ = {
@@ -672,7 +672,7 @@
 			);
 			name = PinLayout;
 			productName = PinLayout;
-			productReference = 49A1B30EADC8BCAF734D81E271752CDD /* PinLayout */;
+			productReference = 49A1B30EADC8BCAF734D81E271752CDD /* PinLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		60F3A8C4BADB52AFCC7DE81FEDB99856 /* FlexUI */ = {
@@ -711,7 +711,7 @@
 			);
 			name = FlexLayout;
 			productName = FlexLayout;
-			productReference = C72B5FCB4FAF78A4CFE9E3AAD40B09B8 /* FlexLayout */;
+			productReference = C72B5FCB4FAF78A4CFE9E3AAD40B09B8 /* FlexLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B1F566580A91B25169BBDE39720EA67D /* Pods-FlexUI_Tests */ = {
@@ -730,7 +730,7 @@
 			);
 			name = "Pods-FlexUI_Tests";
 			productName = Pods_FlexUI_Tests;
-			productReference = 9D22C432CB854EC76C6D1AB56B3A045E /* Pods-FlexUI_Tests */;
+			productReference = 9D22C432CB854EC76C6D1AB56B3A045E /* Pods_FlexUI_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */

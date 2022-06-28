@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/woosub-lee/FlexUI.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
-
+  s.swift_version = '5.5'
   s.source_files = 'FlexUI/Sources/**/*'
   
 

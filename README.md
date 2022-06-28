@@ -7,7 +7,21 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```swift
+self.view.addSubView(rootFlexContainer)
+FlexRoot(container: rootFlexContainer) {
+    FlexHStack {
+        FlexItem(view: titleLabel)
+        FlexSpacer().grow(1)
+        FlexItem(view: settingButton)
+    }
+    .height(100)
+    .padding(8, 16)
+    .marginBottom(24)
+    
+    FlexItem(view: contentView).grow(1)
+}
+```
 
 ## Requirements
 
@@ -27,3 +41,8 @@ woosub-lee, woosub.dev@gmail.com
 ## License
 
 FlexUI is available under the MIT license. See the LICENSE file for more info.
+
+## Inspiration from
+
+SwiftUI  
+[KarrotFlex](https://github.com/daangn/KarrotFlex)  
