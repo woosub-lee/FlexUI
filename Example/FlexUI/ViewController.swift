@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var rootFlexContainer: UIView = UIView()
     
     var titleLabel: UILabel = UILabel()
-    var refreshButton: UIButton = UIButton()
+    var generateButton: UIButton = UIButton()
     
     var tableViewArea: UIView = UIView()
     
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
             FlexHStack {
                 FlexItem(view: titleLabel)
                 FlexSpacer().grow(1)
-                FlexItem(view: refreshButton)
+                FlexItem(view: generateButton)
             }
             .padding(8, 16)
             
@@ -47,9 +47,9 @@ class ViewController: UIViewController {
         self.titleLabel.text = "FlexUI Example App"
         self.titleLabel.font = .boldSystemFont(ofSize: 24)
         
-        self.refreshButton.setTitle("Refresh", for: .normal)
-        self.refreshButton.titleLabel?.font = .systemFont(ofSize: 18)
-        self.refreshButton.setTitleColor(.systemBlue, for: .normal)
+        self.generateButton.setTitle("Generate", for: .normal)
+        self.generateButton.titleLabel?.font = .systemFont(ofSize: 18)
+        self.generateButton.setTitleColor(.systemBlue, for: .normal)
         
         self.tableViewArea.backgroundColor = .red
     }
