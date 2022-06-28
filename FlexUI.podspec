@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FlexUI'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'FlexLayout Sugar Framework like SwiftUI syntax'
   s.description      = 'FlexLayout wraper for using SwiftUI style syntax'
 
