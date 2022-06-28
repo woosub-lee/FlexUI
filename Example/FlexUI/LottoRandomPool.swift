@@ -20,11 +20,10 @@ struct LottoNumberPool {
 
 struct LottoColorPool {
     private let colors: Set<UIColor> =  Set([
-        .red,
-        .yellow,
-        .black,
-        .green,
-        .blue
+        .systemRed,
+        .systemYellow,
+        .systemGreen,
+        .systemBlue
     ])
     
     func getRandomColor() -> UIColor? {

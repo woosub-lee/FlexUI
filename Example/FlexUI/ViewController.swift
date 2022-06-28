@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     var titleLabel: UILabel = UILabel()
     var generateButton: UIButton = UIButton()
     
-    var tableViewArea: UIView = UIView()
+    var tableView: UITableView = UITableView()
+    var tableViewAdapter: LottoTableViewAdapter = LottoTableViewAdapter()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +33,7 @@ class ViewController: UIViewController {
             .padding(8, 16)
             
             FlexSpacer(height: 24)
-            FlexItem(view: tableViewArea).grow(1)
+            FlexItem(view: tableView).grow(1)
         }
     }
     
@@ -44,14 +45,22 @@ class ViewController: UIViewController {
     private func setViewProperties() {
         self.view.backgroundColor = .white
         
-        self.titleLabel.text = "FlexUI Example App"
+        self.titleLabel.text = "FlexUI Example"
         self.titleLabel.font = .boldSystemFont(ofSize: 24)
         
         self.generateButton.setTitle("Generate", for: .normal)
         self.generateButton.titleLabel?.font = .systemFont(ofSize: 18)
         self.generateButton.setTitleColor(.systemBlue, for: .normal)
+        self.generateButton.addTarget(self, action: #selector(generateLotto), for: .touchDown)
         
-        self.tableViewArea.backgroundColor = .red
+        self.tableView.register(LottoTableViewCell.self, forCellReuseIdentifier: LottoTableViewCell.reuseIdentifier)
+        self.tableView.dataSource = tableViewAdapter
+        self.tableView.delegate = tableViewAdapter
+    }
+    
+    @objc func generateLotto() {
+        tableViewAdapter.generateLotto()
+        tableView.reloadData()
     }
 }
 
